@@ -1,0 +1,22 @@
+{
+  "name": "express-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buffer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonconf0rmist/node-express-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anonconf0rmist/node-express-interview/issues"
+  },
+  "homepage": "https://github.com/anonconf0rmist/node-express-interview#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
