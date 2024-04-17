@@ -36,3 +36,10 @@ app.get('/profile', validateUser, (req, res) => {
 // npm install -g generator-express
 // yo appname
 
+
+// express skeleton
+// npm install -g express-generator
+// express my-express-app
+// npm install
+// npm start
+
