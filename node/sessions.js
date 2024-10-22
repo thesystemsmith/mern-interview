@@ -24,3 +24,16 @@ app.get('/get-session', (req, res) => {
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
+
+
+//authentication
+app.post('/login', (req, res) => {
+    // Validate username and password
+    if (req.body.username === 'user' && req.body.password === 'password') {
+        // Set authenticated session
+        req.session.authenticated = true;
+        res.send('Login successful');
+    } else {
+        res.status(401).send('Invalid username or password');
+    }
+});
