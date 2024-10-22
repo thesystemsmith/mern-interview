@@ -37,3 +37,4 @@ app.post('/login', (req, res) => {
         res.status(401).send('Invalid username or password');
     }
 });
+//jwt or oauth can be used for authentication
