@@ -9,7 +9,7 @@ app.get('/about', (req, res) => {
 // with router
 const router = express.Router()
 router.get('/', (req, res) => {
-    res.send('home page')
+    res.send('about home page')
 })
 
 module.exports = router;
